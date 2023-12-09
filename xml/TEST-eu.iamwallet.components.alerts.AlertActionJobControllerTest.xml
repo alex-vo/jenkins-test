@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="eu.iamwallet.components.alerts.AlertActionJobControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-12-09T14:15:15" hostname="WKS-2161" time="1.301">
+  <properties/>
+  <testcase name="clear alert actions()" classname="eu.iamwallet.components.alerts.AlertActionJobControllerTest" time="1.301"/>
+  <system-out><![CDATA[14:14:59,930 |-WARN in Logger[org.springframework.core.env.PropertySourcesPropertyResolver] - No appenders present in context [default] for logger [org.springframework.core.env.PropertySourcesPropertyResolver].
+14:14:59,936 |-INFO in ch.qos.logback.core.joran.util.ConfigurationWatchListUtil@23cbbd07 - Adding [jar:file:/home/avoroncovs/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/3.1.4/7a0a6349e28227a93f2b4efde897e87b3343bf3a/spring-boot-3.1.4.jar!/org/springframework/boot/logging/logback/base.xml] to configuration watch list.
+14:14:59,936 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@448b808a - URL [jar:file:/home/avoroncovs/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/3.1.4/7a0a6349e28227a93f2b4efde897e87b3343bf3a/spring-boot-3.1.4.jar!/org/springframework/boot/logging/logback/base.xml] is not of type file
+14:14:59,939 |-INFO in ch.qos.logback.core.joran.util.ConfigurationWatchListUtil@23cbbd07 - Adding [jar:file:/home/avoroncovs/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/3.1.4/7a0a6349e28227a93f2b4efde897e87b3343bf3a/spring-boot-3.1.4.jar!/org/springframework/boot/logging/logback/defaults.xml] to configuration watch list.
+14:14:59,939 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@448b808a - URL [jar:file:/home/avoroncovs/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/3.1.4/7a0a6349e28227a93f2b4efde897e87b3343bf3a/spring-boot-3.1.4.jar!/org/springframework/boot/logging/logback/defaults.xml] is not of type file
+14:14:59,942 |-INFO in ch.qos.logback.core.joran.action.ConversionRuleAction - registering conversion word clr with class [org.springframework.boot.logging.logback.ColorConverter]
+14:14:59,942 |-INFO in ch.qos.logback.core.joran.action.ConversionRuleAction - registering conversion word wex with class [org.springframework.boot.logging.logback.WhitespaceThrowableProxyConverter]
+14:14:59,942 |-INFO in ch.qos.logback.core.joran.action.ConversionRuleAction - registering conversion word wEx with class [org.springframework.boot.logging.logback.ExtendedWhitespaceThrowableProxyConverter]
+14:14:59,942 |-INFO in ch.qos.logback.core.joran.util.ConfigurationWatchListUtil@23cbbd07 - Adding [jar:file:/home/avoroncovs/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/3.1.4/7a0a6349e28227a93f2b4efde897e87b3343bf3a/spring-boot-3.1.4.jar!/org/springframework/boot/logging/logback/console-appender.xml] to configuration watch list.
+14:14:59,942 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@448b808a - URL [jar:file:/home/avoroncovs/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/3.1.4/7a0a6349e28227a93f2b4efde897e87b3343bf3a/spring-boot-3.1.4.jar!/org/springframework/boot/logging/logback/console-appender.xml] is not of type file
+14:14:59,945 |-INFO in ch.qos.logback.core.joran.util.ConfigurationWatchListUtil@23cbbd07 - Adding [jar:file:/home/avoroncovs/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/3.1.4/7a0a6349e28227a93f2b4efde897e87b3343bf3a/spring-boot-3.1.4.jar!/org/springframework/boot/logging/logback/file-appender.xml] to configuration watch list.
+14:14:59,945 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@448b808a - URL [jar:file:/home/avoroncovs/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/3.1.4/7a0a6349e28227a93f2b4efde897e87b3343bf3a/spring-boot-3.1.4.jar!/org/springframework/boot/logging/logback/file-appender.xml] is not of type file
+14:14:59,952 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.apache.catalina.startup.DigesterFactory] to ERROR
+14:14:59,952 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@7e62cfa3 - Propagating ERROR level on Logger[org.apache.catalina.startup.DigesterFactory] onto the JUL framework
+14:14:59,953 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.apache.catalina.util.LifecycleBase] to ERROR
+14:14:59,953 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@7e62cfa3 - Propagating ERROR level on Logger[org.apache.catalina.util.LifecycleBase] onto the JUL framework
+14:14:59,953 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.apache.coyote.http11.Http11NioProtocol] to WARN
+14:14:59,953 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@7e62cfa3 - Propagating WARN level on Logger[org.apache.coyote.http11.Http11NioProtocol] onto the JUL framework
+14:14:59,953 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.apache.sshd.common.util.SecurityUtils] to WARN
+14:14:59,953 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@7e62cfa3 - Propagating WARN level on Logger[org.apache.sshd.common.util.SecurityUtils] onto the JUL framework
+14:14:59,953 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.apache.tomcat.util.net.NioSelectorPool] to WARN
+14:14:59,953 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@7e62cfa3 - Propagating WARN level on Logger[org.apache.tomcat.util.net.NioSelectorPool] onto the JUL framework
+14:14:59,953 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.eclipse.jetty.util.component.AbstractLifeCycle] to ERROR
+14:14:59,953 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@7e62cfa3 - Propagating ERROR level on Logger[org.eclipse.jetty.util.component.AbstractLifeCycle] onto the JUL framework
+14:14:59,953 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.hibernate.validator.internal.util.Version] to WARN
+14:14:59,953 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@7e62cfa3 - Propagating WARN level on Logger[org.hibernate.validator.internal.util.Version] onto the JUL framework
+14:14:59,953 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.springframework.boot.actuate.endpoint.jmx] to WARN
+14:14:59,953 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@7e62cfa3 - Propagating WARN level on Logger[org.springframework.boot.actuate.endpoint.jmx] onto the JUL framework
+14:14:59,953 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [CONSOLE]
+14:14:59,953 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+14:14:59,954 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+14:14:59,955 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [FILE]
+14:14:59,955 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+14:14:59,956 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+14:14:59,957 |-INFO in c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@1189187821 - setting totalSizeCap to 0 Bytes
+14:14:59,957 |-INFO in c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@1189187821 - Archive files will be limited to [10 MB] each.
+14:14:59,957 |-INFO in c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@1189187821 - Will use gz compression
+14:14:59,957 |-INFO in c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@1189187821 - Will use the pattern /tmp/spring.log.%d{yyyy-MM-dd}.%i for the active file
+14:14:59,958 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@383c3eb3 - The date pattern is 'yyyy-MM-dd' from file name pattern '/tmp/spring.log.%d{yyyy-MM-dd}.%i.gz'.
+14:14:59,958 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@383c3eb3 - Roll-over at midnight.
+14:14:59,958 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@383c3eb3 - Setting initial period to 2023-12-09T14:14:22.971Z
+14:14:59,959 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Active log file name: /tmp/spring.log
+14:14:59,959 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - File property is set to [/tmp/spring.log]
+14:14:59,959 |-INFO in ch.qos.logback.classic.model.processor.RootLoggerModelHandler - Setting level of ROOT logger to INFO
+14:14:59,959 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@7e62cfa3 - Propagating INFO level on Logger[ROOT] onto the JUL framework
+14:14:59,959 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [CONSOLE] to Logger[ROOT]
+14:14:59,959 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [FILE] to Logger[ROOT]
+14:14:59,960 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.springframework] to ERROR
+14:14:59,960 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@7e62cfa3 - Propagating ERROR level on Logger[org.springframework] onto the JUL framework
+14:14:59,960 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [feign.Logger] to DEBUG
+14:14:59,960 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@7e62cfa3 - Propagating DEBUG level on Logger[feign.Logger] onto the JUL framework
+14:14:59,960 |-INFO in ch.qos.logback.core.model.processor.DefaultProcessor@20ab76ee - End of configuration.
+14:14:59,960 |-INFO in org.springframework.boot.logging.logback.SpringBootJoranConfigurator@485caa8f - Registering current configuration as safe fallback point
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
